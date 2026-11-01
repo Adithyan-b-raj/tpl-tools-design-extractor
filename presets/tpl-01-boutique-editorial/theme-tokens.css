@@ -1,0 +1,31 @@
+/* ==========================================================================
+   BMAD Normalized Design Tokens & Movement Blueprint (theme-tokens.css)
+   Movement  : [A] Editorial Luxury Warmth
+   Archetype : Editorial Boutique & Ethnic Couture (Kaka by Eliza / Khaite / Jacquemus)
+   Reference : https://kakabyeliza.com
+   Contract  : whitelabel-and-showroom-contract.md §2 + design-movements-and-layout-blueprints.md
+   ========================================================================== */
+
+:root {
+  --font-primary: 'Jost', sans-serif;
+  --font-accent: 'GFS Didot', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-primary: #f76b6a;
+  --brand-primary: var(--color-primary);
+
+  --color-dark: #161616;
+  --brand-dark: var(--color-dark);
+
+  --bg-main: #FFFDF9;
+  --bg-canvas: #FAF6F2;
+  --bg-sand: var(--bg-canvas);
+
+  --border-color: #EAE3DC;
+  --border-structural: 1px solid #EAE3DC;
+  --shadow-token: 0 10px 30px rgba(22, 22, 22, 0.05);
+  --grid-gap-desktop: 35px 20px;
+  --grid-gap-mobile: 20px 15px;
+  --radius: 2px;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}

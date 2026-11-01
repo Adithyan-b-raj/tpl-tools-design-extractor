@@ -1,0 +1,31 @@
+/* ==========================================================================
+   BMAD Normalized Design Tokens & Movement Blueprint (theme-tokens.css)
+   Movement  : [J] Kinetic Typography Studio Index
+   Archetype : Awwwards Studio Numbered Case-Study Index & Scope Estimator (Locomotive / Studio Freight / Malvah)
+   Reference : https://locomotive.ca
+   Contract  : whitelabel-and-showroom-contract.md §2 + design-movements-and-layout-blueprints.md
+   ========================================================================== */
+
+:root {
+  --font-primary: 'Plus Jakarta Sans', sans-serif;
+  --font-accent: 'Syne', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-primary: #FF3300;
+  --brand-primary: var(--color-primary);
+
+  --color-dark: #0B0B0B;
+  --brand-dark: var(--color-dark);
+
+  --bg-main: #F5F3EE;
+  --bg-canvas: #0B0B0B;
+  --bg-sand: var(--bg-canvas);
+
+  --border-color: #D4D0C8;
+  --border-structural: 1px solid #1A1A1A;
+  --shadow-token: none;
+  --grid-gap-desktop: 0px;
+  --grid-gap-mobile: 0px;
+  --radius: 0px;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}

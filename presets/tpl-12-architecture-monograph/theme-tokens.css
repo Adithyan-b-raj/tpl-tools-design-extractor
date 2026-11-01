@@ -1,0 +1,31 @@
+/* ==========================================================================
+   BMAD Normalized Design Tokens & Movement Blueprint (theme-tokens.css)
+   Movement  : [L] Numbered Monograph & Before/After Elevation Slider
+   Archetype : Architectural Monograph Index & Turnkey BOQ Cost Estimator (Foster+Partners / BIG / Snøhetta)
+   Reference : https://www.fosterandpartners.com
+   Contract  : whitelabel-and-showroom-contract.md §2 + design-movements-and-layout-blueprints.md
+   ========================================================================== */
+
+:root {
+  --font-primary: 'Plus Jakarta Sans', sans-serif;
+  --font-accent: 'Instrument Serif', serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --color-primary: #9C4A27;
+  --brand-primary: var(--color-primary);
+
+  --color-dark: #1A1816;
+  --brand-dark: var(--color-dark);
+
+  --bg-main: #F4F1EA;
+  --bg-canvas: #EAE5DA;
+  --bg-sand: var(--bg-canvas);
+
+  --border-color: #D2C9B8;
+  --border-structural: 1px solid #D2C9B8;
+  --shadow-token: none;
+  --grid-gap-desktop: 0px;
+  --grid-gap-mobile: 0px;
+  --radius: 0px;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
