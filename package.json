@@ -1,0 +1,23 @@
+{
+  "name": "tpl-tools-design-extractor",
+  "version": "1.0.0",
+  "description": "BMAD Awwwards & Reference Website Design-Token Extractor + Poly-Repo Template Scaffolder CLI",
+  "type": "module",
+  "bin": {
+    "bmad-extract": "./bin/extract-tokens.mjs"
+  },
+  "scripts": {
+    "extract": "node ./bin/extract-tokens.mjs extract",
+    "scaffold": "node ./bin/extract-tokens.mjs scaffold",
+    "test": "node ./bin/extract-tokens.mjs extract --preset saas-bento --out ./extracted/saas-bento"
+  },
+  "keywords": [
+    "awwwards",
+    "design-tokens",
+    "css-variables",
+    "bmad",
+    "cloudflare-pages",
+    "template-scaffolder"
+  ],
+  "license": "MIT"
+}
